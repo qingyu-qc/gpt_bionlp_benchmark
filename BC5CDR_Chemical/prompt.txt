@@ -1,0 +1,5 @@
+TASK: the task is to extract chemical entities in a sentence. 
+INPUT: the input is a sentence.
+OUTPUT: the output is an HTML that highlights all the chemical entities in the sentence.
+Sentence:
+

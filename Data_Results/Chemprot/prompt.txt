@@ -1,0 +1,14 @@
+TASK: the task is to classify relations between a chemical and a gene for a sentence. 
+INPUT: the input is a sentence where the chemical is labeled as @CHEMICAL$ and the gene is labeled as @GENE$ accordingly in a sentence. 
+OUTPUT: your task is to select one out of the six types of relations ('CPR:3', 'CPR:4', 'CPR:5', 'CPR:6', 'CPR:9', and 'false') for the gene and chemical without any explanation or other characters:
+CPR:3, which includes UPREGULATOR, ACTIVATOR, and INDIRECT UPREGULATOR
+CPR:4, which includes DOWNREGULATOR, INHIBITOR ,and INDIRECT DOWNREGULATOR
+CPR:5, which includes AGONIST, AGONIST ACTIVATOR, and AGONIST INHIBITOR
+CPR:6, which includes ANTAGONIST
+CPR:9, which includes SUBSTRATE, PRODUCT OF and SUBSTRATE PRODUCT OF
+false, which indicates no relations
+The following examples are provided:
+Example-1 Q: Three lines of evidence suggest that calmodulin inhibition is not responsible for the inhibition of binding and endocytosis: 1) Promethazine, a phenothiazine that is a poor inhibitor of calmodulin, is nearly as effective as TFP at inhibiting endocytosis; calmidazolium, a potent inhibitor of several calmodulin functions, did not cause a loss of binding; 2) the microinjection of calmodulin into cells did not reverse the effects of @CHEMICAL$; using pressure microinjection, we introduced up to a 100-fold excess of @GENE$ over native levels into individual gerbil fibroma cells; using rhodamine-labeled alpha 2-macroglobulin, we saw that the W-7 induced inhibition of receptor-mediated endocytosis was the same in injected and uninjected cells; 3) we injected calcineurin, a calmodulin-binding protein, into cells (1-3 pg/cell) and observed no effect on the receptor-mediated endocytosis of rhodamine-labeled alpha 2-macroglobulin.
+Example-1 A: false
+
+

@@ -1,5 +1,5 @@
 # Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations
-This repository provides datasets, baselines, and results for the paper titled 'Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations'.
+This repository provides datasets, baselines, and results for the paper titled 'Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations'. The following provides the basis and we will actively update the repository.
 
 ## Datasets
 The datasets are biomedical natural language processing (BioNLP) benchmarks commonly adopted for benchmarking BioNLP lanuage models. It consists of the following:

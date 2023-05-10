@@ -1,8 +1,0 @@
-NCBI-disease
-TASK: the task is to extract disease entities in a sentence. 
-INPUT: the input is a sentence.
-OUTPUT: the output is an HTML that highlights all the disease entities in the sentence.
-Sentence:
-
-
-

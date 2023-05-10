@@ -12,7 +12,16 @@ The datasets are biomedical natural language processing (BioNLP) benchmarks comm
 A prompt file is also provided under each dataset.
 
 ## Results
-The zero-shot and one-shot learning results are provided under each dataset.
+| Sampled dataset | Evaluation metric | Fine-tuned PubMedBERT (min-max) | Zero-shot GPT-3 |One-shot GPT-3 |Zero-shot GPT-4 |One-shot GPT-4 |
+| :------ | --------: | --------: | -----: |-----: |-----: |-----: |
+| BC5CDR-chemical | Entity-level F1 |0.9028-0.9350|0.2925|0.1803|0.7443|0.8207
+| NCBI-disease | Entity-level F1 |0.8336-0.8986|0.2405|0.1273|0.5673|0.4837
+| ChemProt | Macro F1|0.6653-0.7832|0.5743|0.6191|0.6618|0.6543
+| DDI2013 | Macro F1|0.6673-0.8023|0.3349|0.3440|0.6325|0.6558
+| HoC | Label-wise macro F1|0.6991-0.8915|0.6572|0.6932|0.7474|0.7402
+|LitCovid| Label-wise macro F1|0.8024-0.8724|0.6390|0.6531|0.6746|0.6839
+|PubMedQA|Pearson correlation|0.2237-0.3676|0.3553|0.3011|0.4374|0.5361
+|BIOSSES|Macro F1|0.6870-0.9332|0.8786|0.9194|0.8832|0.8922
 
 ## NCBI's Disclaimer
 This tool shows the results of research conducted in the [Computational Biology Branch](https://www.ncbi.nlm.nih.gov/research/), [NCBI](https://www.ncbi.nlm.nih.gov/home/about). 

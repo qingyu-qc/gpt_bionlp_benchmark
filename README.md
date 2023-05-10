@@ -3,7 +3,7 @@ This repository provides datasets, baselines, and results for the paper titled '
 
 ## Datasets
 The datasets are biomedical natural language processing (BioNLP) benchmarks commonly adopted for benchmarking BioNLP lanuage models. It consists of the following:
-1. The sampled testset: under each dataset, there is a sample file consists of 200 samples from the testing set. This is used to evaluate the accuracy of BioNLP language models in this study. For instance, [the HoC sampled file](https://github.com/qingyu-qc/gpt_bionlp_benchmark/blob/main/Data_Results/Hoc/datasets/hoc-sample200.tsv) provides the 200 samples from the HoC dataset.
+1. The sampled testset: under each dataset, there is a sample file consists of 200 samples from the testing set. This is used to evaluate the accuracy of BioNLP language models in this study. For instance, [the HoC sampled file](https://github.com/qingyu-qc/gpt_bionlp_benchmark/blob/main/Benchmarks/Hoc/datasets/hoc-sample200.tsv) provides the 200 samples from the HoC dataset.
 2. The original full dataset: the original complete train, dev, test sets under the full_set folder prepared by the existing studies.
    1. The train and dev files are used to train a PubMedBERT model as a baseline
    2. The train file was used to randomly select samples for one-shot learning

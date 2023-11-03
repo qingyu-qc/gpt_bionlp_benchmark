@@ -22,7 +22,9 @@ A prompt sample is also provided under each benchmark.
 |LitCovid| Label-wise macro F1|0.8024-0.8724|0.6390|0.6531|0.6746|0.6839
 |PubMedQA|Pearson correlation|0.2237-0.3676|0.3553|0.3011|0.4374|0.5361
 |BIOSSES|Macro F1|0.6870-0.9332|0.8786|0.9194|0.8832|0.8922
-## | Sampled dataset | Evaluation metric | Fine-tuned BART | Zero-shot GPT-3 |One-shot GPT-3 |Zero-shot GPT-4 |One-shot GPT-4 |
+
+| Sampled dataset | Evaluation metric | Fine-tuned BART | Zero-shot GPT-3 |One-shot GPT-3 |Zero-shot GPT-4 |One-shot GPT-4 |
+| :------ | --------: | --------: | -----: |-----: |-----: |-----: |
 |PubMed|ROUGE-1|0.4489|0.0608|0.2320|0.3997|0.4054
 |MS2|ROUGE-1|0.2079|0.1731|0.1211|0.1877|0.1919
 |CochranePLS|Flesch-Kincaid score|12.6425|13.0505|13.1755|12.0001|13.1217

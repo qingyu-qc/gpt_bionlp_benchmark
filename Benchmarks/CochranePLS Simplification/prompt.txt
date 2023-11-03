@@ -1,0 +1,16 @@
+	
+Prompt:
+***TASK*** the task is to simplify the input abstract of a biomedical literature 
+***INPUT*** the input is the abstract of a biomedical literature 
+***OUTPUT*** the output is the simplified abstract for the input abstract of a biomedical literature ***DOCUMENTATION*** 
+***EXAMPLES*** 
+Input:
+Output:
+
+Example:
+***TASK*** the task is to simplify the input abstract of a biomedical literature 
+***INPUT*** the input is the abstract of a biomedical literature 
+***OUTPUT*** the output is the simplified abstract for the input abstract of a biomedical literature ***DOCUMENTATION*** 
+***EXAMPLES*** 
+Input: Two trials (n = 190), at low risk of bias, were included in the review and both presented data on first time failure at the tooth level. Pooling of the data showed a statistically significant difference in favour of molar bands, with a hazard ratio of 2.92 (95% confidence intervals (CI) 1.80 to 4.72). No statistically significant heterogeneity was shown between the two studies. Data on first time failure at the patient level were also available and showed statistically different difference in favour of molar bands (risk ratio 2.30; 95% CI 1.56 to 3.41) (risk of event for molar tubes = 57%; risk of event for molar bands 25%). One trial presented data on decalcification again showing a statistically significant difference in favour of molar bands. No other adverse events identified. From the two well-designed and low risk of bias trials included in this review it was shown that the failure of molar tubes bonded with either a chemically-cured or light-cured adhesive was considerably higher than that of molar bands cemented with glass ionomer cement. One trial indicated that there was less decalcification with molar bands cemented with glass ionomer cement than with bonded molar tubes cemented with a light-cured adhesive. However, given there are limited data for this outcome, further evidence is required to draw more robust conclusions. 
+Output: The evidence in this review, which was carried out together with Cochrane Oral Health, is up-to-date as of 15 February 2017. We included two studies that evaluated 190 participants. Both trials were conducted in the UK and both compared bonded molar tubes with molar bands. From the limited data of two studies at low risk of bias, it would appear that bonded molar tubes are associated with a higher failure rate than with molar bands.
